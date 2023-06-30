@@ -1,5 +1,5 @@
 const { Schema, model } = require("mongoose");
-const User = model("User, UserSchema");
+
 
 const UserSchema = new Schema(
     {
@@ -50,5 +50,5 @@ return this.friends.length;
 });
 
 
-
+const User = model("User", UserSchema); //  This const is moved here because I needed to create the model first  then declare that model...
 module.exports = User;

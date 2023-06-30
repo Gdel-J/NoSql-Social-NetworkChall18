@@ -1,7 +1,7 @@
 const { Schema, model, Types } = require("mongoose");
-const dateFormat = require("../../Chall18-Social-Network/utils/dateFormat")
+const dateFormat = require("../utils/dateFormat")
 
-const  Thought = model("Thought", ThoughtSchema);
+
 
 
 const ReactionSchema = new Schema(
@@ -72,7 +72,7 @@ ThoughtSchema.virtual("reactionCount").get(function () {
     return this.rections.length;
 });
 
-
+const  Thought = model("Thought", ThoughtSchema);   //  This const is moved here because I needed to create the model first  then declare that model...
 
 module.exports = Thought;
 
