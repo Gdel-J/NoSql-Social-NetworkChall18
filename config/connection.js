@@ -7,4 +7,7 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/social_ne
     
 });
 
+//  this is to allow log mongo queries being executed!
+mongoose.set("debug", true);
+
 module.exports = mongoose.connection;
