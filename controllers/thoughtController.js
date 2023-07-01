@@ -28,7 +28,7 @@ const thoughtController = {
             .select("-__v")
             .then((dbThoughtData) => {
                 if (!dbThoughtData) {
-                    return res.stauts(404).json({ message: "No thought with this id!" });
+                    return res.status(404).json({ message: "No thought with this id!" });
                 }
                 res.json(dbThoughtData);
             })

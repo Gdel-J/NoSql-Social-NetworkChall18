@@ -15,7 +15,7 @@ const ReactionSchema = new Schema(
         reactionBody: {
             type: String,
             required: true,
-            maxlenght: 280,
+            maxlengh: 280,
         },
 
         username: {
@@ -69,8 +69,10 @@ const ThoughtSchema = new Schema(
 );
 
 ThoughtSchema.virtual("reactionCount").get(function () {
-    return this.rections.length;
+    return this.reactions.length;
 });
+
+
 
 const  Thought = model("Thought", ThoughtSchema);   //  This const is moved here because I needed to create the model first  then declare that model...
 
