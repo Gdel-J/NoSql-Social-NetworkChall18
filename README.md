@@ -43,33 +43,41 @@ To run this project, install it locally using npm:
 
 
 
-In insomnia:
-
--Get All Users:
-
-![Screenshot 1]
+**In insomnia:**
 
 
+-**Get All Users**:
 
--Get All Thoughts :
-
-![Screenshot 2]
+![Screenshot01 getAllUsers](https://github.com/Gdel-J/NoSql-Social-NetworkChall18/assets/120201085/05c72ec1-2405-4d04-a664-e6cb431786a5)
 
 
 
-- Add a Reaction
+-**Get All Thoughts** :
 
-![Screenshot 3]
-
-
-
-- Add a Friend
-
-![Screenshot 4]
+![Screenshot02 GetAllThoughts](https://github.com/Gdel-J/NoSql-Social-NetworkChall18/assets/120201085/017197a2-a66e-4796-888f-c6c3eed67ddf)
 
 
 
-Walkthrough video: 
+- **Add a Reaction**
+
+![Screenshot03 AddReaction](https://github.com/Gdel-J/NoSql-Social-NetworkChall18/assets/120201085/79a3d050-d543-48bd-a65b-0830305e8424)
+
+
+
+- **Add a Friend**
+
+![Screenshot04 AddFriend](https://github.com/Gdel-J/NoSql-Social-NetworkChall18/assets/120201085/6820f2a6-e33f-4516-a58c-55954a96898a)
+
+
+
+**Walkthrough video link**
+
+https://drive.google.com/file/d/1-BX3gUfpz2D88Cnlt-vU7V_XA0h7LdIx/view
+
+
+**repository for this application**:
+
+https://github.com/Gdel-J/NoSql-Social-NetworkChall18.git
 
 
 
@@ -88,8 +96,8 @@ N/A
 
 ## Questions
 
-If you have any questions about this repository, you might want to open an issue or contact me  at (email:`jesdelevecchio@gmail.com`)
-Also you can find more of my work at (`https://www.github.com/Gdel-J`).
+If you have any questions about this repository, you might want to open an issue or contact me  at 
+ at [My GitHub](https://github.com/Gdel-J).
 
 ## Features
 
